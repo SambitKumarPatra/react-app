@@ -1,0 +1,82 @@
+header{
+  /*padding: 0 10%;*/
+  /*background-color: #3c404b;*/
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  display:block;
+  background: -webkit-linear-gradient(rgba(13,7,26,0.3),rgba(49,49,71,0.3));
+  background: linear-gradient(rgba(13,7,26,0.3),rgba(49,49,71,0.3));
+  border-bottom:#4B5937 2px solid;
+  text-align:center;
+  min-height: 60px;
+  margin-bottom: 2%;
+}
+
+.title{
+  width: 35%;
+  font-size: 3.5em;
+  float:left;
+  letter-spacing: 0.3em;
+  line-height: 45px;
+  margin: 5px;
+}
+
+.title .firstname{
+  float: left;
+  padding-right:5px;
+  font-variant-caps: all-petite-caps;
+  font-weight: 800;
+}
+
+.title .lastname{
+  float:left;
+  padding-left: 5px;
+  font-variant-caps: all-petite-caps;
+  font-weight: 300;
+}
+
+.route{
+  width:30%;
+  margin:5px auto -33px;
+  font-weight: 400;
+  font-size: 2em;
+}
+
+.route ul{
+  list-style-type: none;
+}
+
+.route ul li{
+  display: inline-block;
+  padding: 10px 35px 0px 35px;
+}
+
+.route ul li a{
+  color:#D8E7F2;
+  text-decoration: none;
+}
+
+.auth{
+  width:35%;
+  margin:5px 5px 0 0;
+  font-weight: 400;
+  font-size: 1.5em;
+  float:right;
+}
+
+.auth .authlink{
+  margin:2%;
+  padding:2px;
+  color:#D8E7F2;
+  border:2px solid #4B5937;
+  text-decoration: none;
+}
+
+.auth .social{
+  margin:2%;
+  padding:2px;
+  color:#D8E7F2;
+  text-decoration: none;
+}
