@@ -34,8 +34,7 @@ module.exports={
       query: {
         mimetype: 'application/octet-stream',
         name:'[hash:base64:6]-[name].[ext]'
-      },
-      exclude:/node_modules/
+      }
     },
     {
       test: /\.jpg$/,

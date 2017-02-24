@@ -1,15 +1,15 @@
 @font-face {
-  font-family: 'custom-romanesco-regular';
+  font-family: 'romanesco-regular';
   src: url('./fonts/Romanesco-Regular.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'custom-allura-regular';
+  font-family: 'allura-regular';
   src: url('./fonts/Allura-Regular.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'custom-simplifica-regular';
+  font-family: 'simplifica-regular';
   src: url('./fonts/SIMPLIFICA.ttf') format('truetype');
 }
 
@@ -21,13 +21,31 @@
 
 body{
   background-color: #313147;
-  font-family: custom-simplifica-regular, sans-serif;
+  font-family: simplifica-regular, sans-serif;
   color:#D8E7F2;
   margin:0;
 }
 
-.container{
+/* Older browsers */
+html { font-size: 16px; }
+
+/* Modern browsers only need this one */
+
+@media screen and (min-width: 25em){
+  html { font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) ); }
+}
+
+/* Safari <8 and IE <11 */
+@media screen and (min-width: 25em){
+  html { font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) ); }
+}
+@media screen and (min-width: 50em){
+  html { font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) ); }
+}
+
+/*.container{
   width:90%;
   overflow: hidden;
   margin: 0 auto;
 }
+*/
