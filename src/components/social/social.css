@@ -10,11 +10,11 @@ a {
 }
 .social ul {
   padding: 0px;
-  -webkit-transform: translate(-270px, 0);
-  -moz-transform: translate(-270px, 0);
-  -ms-transform: translate(-270px, 0);
-  -o-transform: translate(-270px, 0);
-  transform: translate(-270px, 0);
+  -webkit-transform: translate(-267px, 0);
+  -moz-transform: translate(-267px, 0);
+  -ms-transform: translate(-267px, 0);
+  -o-transform: translate(-267px, 0);
+  transform: translate(-267px, 0);
 }
 .social ul li {
   display: block;
@@ -46,7 +46,7 @@ a {
 }
 .social ul li:hover .socialLogo {
   color: rgb(216,231,242);
-  background: rgba(49, 49, 71, 0.36);
+  background: rgba(49, 49, 71, 0.9);
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
@@ -61,8 +61,8 @@ a {
 .social ul li .socialLogo {
   margin-left: 10px;
   font-size: 0.5rem;
-  color: rgb(216,231,242);
-  background: rgba(49, 49, 71);
+  background : rgb(216,231,242);
+  color : rgb(49, 49, 71);
   padding: 4%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;

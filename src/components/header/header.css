@@ -12,7 +12,7 @@
 }
 
 .header-wrapper{
-  width:90%;
+  width:85%;
   margin:0 auto 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -53,7 +53,7 @@ header h1{
 .content-wrapper{
   padding-top: 25vh;
   margin-top: 2rem;
-  width:90%;
+  width:85%;
   margin:0 auto 0;
   display: -webkit-box;
   display: -ms-flexbox;
