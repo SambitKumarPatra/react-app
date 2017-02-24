@@ -18,15 +18,18 @@
 }
 
 h4{
+  padding: 10px 30px;
   font-size: 1rem;
   font-weight: 200;
-  text-transform: capitalize;
+  border-bottom: 0.5px solid #D8E7F2;
 }
 
 p{
+  padding-top: 30px;
   font-size: 0.5rem;
   font-weight: 100;
   text-align: center;
+  letter-spacing: 0.05em;
 }
 
 .description{
@@ -45,14 +48,15 @@ p{
 
 .content-one .image-one
 {
-  height: 35vh;
-  width: 175vw;
+  height: 43vh;
+  width: 182vw;
   opacity: 0.5;
   box-shadow: 10px 10px 5px rgba(13,7,26,0.9);
   justify-content: center;
   align-items: center;
   overflow: visible;
   background: url("../../images/camping-bonfire.jpg") no-repeat 50% 70%;
+  background-size:cover;
 }
 
 .content-two{
@@ -63,14 +67,15 @@ p{
 
 .content-two .image-two
 {
-  height: 45vh;
-  width: 175vw;
+  height: 50vh;
+  width: 235vw;
   opacity: 0.5;
   box-shadow: -10px -10px 5px rgba(13,7,26,0.9);
   justify-content: center;
   align-items: center;
   overflow: visible;
   background: url("../../images/camping-cooker.jpg") no-repeat 50% 47%;
+  background-size:cover;
 }
 
 .content-three{
@@ -81,12 +86,13 @@ p{
 
 .content-three .image-three
 {
-  height: 40vh;
-  width: 175vw;
+  height: 48vh;
+  width: 182vw;
   opacity: 0.5;
   box-shadow: 10px -10px 5px rgba(13,7,26,0.9);
   justify-content: center;
   align-items: center;
   overflow: visible;
-  background: url("../../images/camping-drone.jpg") no-repeat 50% 40%;
+  background: url("../../images/camping-drone.jpg") no-repeat 50% 0%;
+  background-size:cover;
 }
