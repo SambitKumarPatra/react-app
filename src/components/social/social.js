@@ -18,6 +18,10 @@ class Social extends Component{
                 className={style.socialLogo}
                 name='instagram'
               /></a></li>
+              <li><a href="http://instagram.com/flying_roller">YouTube <FontAwesome
+                className={style.socialLogo}
+                name='youtube'
+              /></a></li>
           </ul>
       </nav>)
   }

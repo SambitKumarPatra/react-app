@@ -1,0 +1,129 @@
+.content{
+  background: url("../../images/showcase.jpg") no-repeat;
+  background-position: 30% 70%;
+  background-size: cover;
+  background-attachment: fixed;
+  width:100%;
+  height:100vh;
+}
+
+.content-wrapper{
+  padding-top: 25vh;
+  margin-top: 2rem;
+  width:85%;
+  margin:0 auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content-wrapper h1{
+  font-family:allura-regular, sans-serif;
+  font-weight: 500;
+  font-size:3rem;
+  letter-spacing: 0.1rem;
+}
+
+.content-wrapper h3{
+  font-weight: 300;
+  font-size:1.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.content-wrapper p{
+  padding-top: 30vh;
+  font-weight: 200;
+  font-size:0.7rem;
+  letter-spacing: 0.09rem;
+  text-align: center;
+}
+
+/*header{
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  display:block;
+  background: linear-gradient(rgba(13,7,26,0.3),rgba(49,49,71,0.3));
+  border-bottom:#D8E7F2 1px solid;
+  max-height: 1.5rem;
+}
+
+.header-wrapper{
+  width:90%;
+  margin:0 auto 0;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title{
+  margin: 0.25rem 0;
+  font-size: 1.5em;
+  flex-grow: 1.33;
+  letter-spacing: 0.2rem;
+  line-height: 1.5rem;
+}
+
+.title .firstname{
+  font-variant-caps: all-petite-caps;
+  font-weight: 900;
+}
+
+.title .lastname{
+  font-variant-caps: all-petite-caps;
+  font-weight: 200;
+}
+
+.route{
+  font-weight: 400;
+  font-size: 0.75rem;
+  flex-grow: 2.45;
+}
+
+.route ul{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.route ul li{
+  display: inline-block;
+  margin: 0 10px 0;
+}
+
+.route ul li a{
+  color:#D8E7F2;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+}
+
+.auth{
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 0.5em;
+  flex-grow: 1.33;
+}
+
+.auth .auth-link{
+  margin:0 5px 0;
+  padding:3.5%;
+  color:#D8E7F2;
+  border:2px solid #4B5937;
+  text-decoration: none;
+  letter-spacing: 0.01em;
+}
+
+*/

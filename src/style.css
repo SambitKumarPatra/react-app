@@ -24,6 +24,8 @@ body{
   font-family: simplifica-regular, sans-serif;
   color:#D8E7F2;
   margin:0;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Older browsers */
