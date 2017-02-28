@@ -17,6 +17,7 @@ a {
   transform: translate(-267px, 0);
 }
 .social ul li {
+  z-index: 1000;
   display: block;
   margin: 5px;
   background: rgba(49, 49, 71, 0.5);

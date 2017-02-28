@@ -18,6 +18,7 @@
 
 header{
   width:100%;
+  z-index:1000;
   position: fixed;
   background-color: rgba(13,7,26,0.7);
   min-height: 2vh;
@@ -63,13 +64,6 @@ header h3{
   flex-basis:33%;
   padding: 1% 0;
 }
-
-/*.auth:hover{
-  flex-direction: row-reverse;
-  justify-content: flex-start;
-  transition: all 1s;
-}*/
-
 
 
 .auth .social-logo{

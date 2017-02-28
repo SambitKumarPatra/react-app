@@ -1,19 +1,18 @@
 import React,{Component} from 'react'
 import '../style.css'
-import Header from './header/header'
-import Banner from './banner/banner'
-import Showcase from './showcase/showcase'
-import Social from './social/social'
+import {Header,Social} from './common'
+// import Home from './home'
 
-class App extends Component{
+class MainLayout extends Component{
   render(){
-    return (<div>
+    return (<div className='app'>
       <Header></Header>
       <Social></Social>
-      <Banner></Banner>
-      <Showcase></Showcase>
+      <main>
+        {this.props.children}
+      </main>
     </div>)
   }
 }
 
-export default App
+export default MainLayout

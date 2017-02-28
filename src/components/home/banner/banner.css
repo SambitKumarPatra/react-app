@@ -1,5 +1,5 @@
 .content{
-  background: url("../../images/showcase.jpg") no-repeat;
+  background: url("../../../images/showcase.jpg") no-repeat;
   background-position: 30% 70%;
   background-size: cover;
   background-attachment: fixed;
@@ -38,6 +38,10 @@
   font-weight: 300;
   font-size:1.5rem;
   letter-spacing: 0.1rem;
+  opacity: 0;
+  animation-name: show;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
 }
 
 .content-wrapper p{
@@ -46,6 +50,15 @@
   font-size:0.7rem;
   letter-spacing: 0.09rem;
   text-align: center;
+  opacity: 0;
+  animation-name: show;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes show {
+  0% {opacity :0}
+  100% {opacity:1}
 }
 
 /*header{

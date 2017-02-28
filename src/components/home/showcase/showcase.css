@@ -2,7 +2,7 @@
   padding-top: 10vh;
   padding-bottom: 10vh;
   width:100%;
-  background: url("../../images/content-area.jpg") no-repeat;
+  background: url("../../../images/content-area.jpg") no-repeat;
   background-size: cover;
   min-height: 100vh;
   background-attachment: fixed;
@@ -83,7 +83,7 @@ p{
       -ms-flex-align: center;
           align-items: center;
   overflow: visible;
-  background: url("../../images/camping-bonfire.jpg") no-repeat 50% 70%;
+  background: url("../../../images/camping-bonfire.jpg") no-repeat 50% 70%;
   background-size:cover;
 }
 
@@ -113,7 +113,7 @@ p{
       -ms-flex-align: center;
           align-items: center;
   overflow: visible;
-  background: url("../../images/camping-cooker.jpg") no-repeat 50% 47%;
+  background: url("../../../images/camping-cooker.jpg") no-repeat 50% 47%;
   background-size:cover;
 }
 
@@ -143,6 +143,6 @@ p{
       -ms-flex-align: center;
           align-items: center;
   overflow: visible;
-  background: url("../../images/camping-drone.jpg") no-repeat 50% 0%;
+  background: url("../../../images/camping-drone.jpg") no-repeat 50% 0%;
   background-size:cover;
 }
